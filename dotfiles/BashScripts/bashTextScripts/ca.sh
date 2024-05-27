@@ -8,6 +8,7 @@
 # file2 - modified 28th of July, file3 modified 3rd of August)
 # then your script should print file1 and file2 but not file3.
 
+mkdir -p /tmp/spaceDir
 directory="/tmp/spaceDir"
 cd "$directory" || exit
 
